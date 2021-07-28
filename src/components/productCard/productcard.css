@@ -1,0 +1,50 @@
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.brand {
+  margin: 0;
+  padding: 0.2rem;
+  color: gray;
+}
+.name {
+  margin: 0;
+}
+
+.idealfor {
+  background: green;
+  padding: 2px;
+  border-radius: 3px;
+  margin: 0;
+}
+
+.discount {
+  color: green;
+  margin: 0;
+  padding: 0;
+  text-decoration: line-through;
+}
+
+.sizes {
+  display: flex;
+  flex-direction: row;
+}
+.size {
+  margin: 2px;
+  border: 1px solid black;
+  padding: 2px;
+}

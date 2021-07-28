@@ -1,0 +1,15 @@
+import { Route, Switch } from "react-router-dom";
+// import Sidebar from "./components/sidebar/Sidebar";
+import Home from "./pages/Home";
+import "./styles.css";
+
+export default function App() {
+  return (
+    <div className="App">
+      {/* <Sidebar /> */}
+      <Switch>
+        <Route to="/" component={Home} />
+      </Switch>
+    </div>
+  );
+}

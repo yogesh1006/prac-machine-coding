@@ -1,0 +1,23 @@
+.homepage {
+  margin: 20px 0;
+  padding: 10px;
+  /* background: blue; */
+  display: flex;
+}
+
+.btn {
+  position: relative;
+}
+.btn-sidebar {
+  position: absolute;
+  top: -40px;
+  left: 250px;
+}
+
+.products {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-left: 3rem;
+}
